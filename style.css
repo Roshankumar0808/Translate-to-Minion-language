@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+:root {
+    --primary-color: #F87171;
+    ;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+    background-color: #FCA5A5;
+    
+}
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+nav {
+    background-color: #93C5FD;
+    text-align: center;
+    border-radius: 1.5rem;
+    /* padding:1rem; */
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 60%;
+    min-height: 20px;
+    height: 150px;
+    margin-top: 2rem;
+    font-size: large;
+    border: 3px solid black;
+    font-family: inherit;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: larger;
+    width: 20%;
+    border-radius: 4px;
+    background-color: #c7342f;
+}
+
+#translate-output {
+    width: 60%;
+    padding: 2rem;
+    border: 3px solid black;
+    margin: auto;
+    height: 150px;
+    overflow: scroll;
+
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color:#A78BFA;
+    text-align: center;
+    border-top-left-radius:1.5rem; 
+    border-bottom-right-radius:1.5rem; 
+}
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+
+.hero .hero-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+}
